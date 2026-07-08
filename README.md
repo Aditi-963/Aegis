@@ -4,7 +4,7 @@ AEGIS is a production-grade, human-aware Formula-1 Race Intelligence and Strateg
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 *   **Real-Time Vehicle Physics**: High-fidelity simulation of speedometer speeds, engine RPM, G-Forces, ERS batteries, drag reduction systems (DRS), mode-based fuel consumption, and independent 4-corner tire temperatures and wear degradation.
 *   **Human Driver Model (HDM)**: Simulates professional racing driver limitations including fatigue accumulation, stress variables, focus coefficients, reaction delay scaling, and risk biases to calculate the **Human Risk Penalty (HRP)**. High HRP increases probability of lock-ups, slips, and braking delays.
@@ -14,7 +14,7 @@ AEGIS is a production-grade, human-aware Formula-1 Race Intelligence and Strateg
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 Aegis.mvp/
@@ -58,7 +58,7 @@ Aegis.mvp/
 
 ---
 
-## 🛠️ Step-by-Step Installation & Startup
+##  Step-by-Step Installation & Startup
 
 Follow these directions to launch the complete AEGIS ecosystem:
 
@@ -115,7 +115,7 @@ docker-compose up --build
 
 ---
 
-## 🔌 API Documentation
+##  API Documentation
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
@@ -132,7 +132,7 @@ docker-compose up --build
 
 ---
 
-## ⚙️ Environment Variables
+##  Environment Variables
 
 A `.env` file can be configured inside `/backend` with:
 
