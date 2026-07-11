@@ -1,4 +1,4 @@
-# AEGIS: AI Race Strategist
+# AEGIS: AI Race Strategist 🏎️
 
 AEGIS is a production-grade, human-aware Formula-1 Race Intelligence and Strategy Optimization Platform. Unlike traditional racing telemetry tools, AEGIS models both vehicle physics and human driver limitations in real-time, employing an advanced Monte Carlo Tree Search (MCTS) decision engine to solve optimal pit windows, adapt to dynamic weather shifts, and defend against rival undercuts/overcuts.
 
