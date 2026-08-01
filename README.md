@@ -1,13 +1,13 @@
 #🏎️ AEGIS: AI Race Strategist 
 
-AEGIS is a production-grade, human-aware Formula-1 Race Intelligence and Strategy Optimization Platform. Unlike traditional racing telemetry tools, AEGIS models both vehicle physics and human driver limitations in real-time, employing an advanced Monte Carlo Tree Search (MCTS) decision engine to solve optimal pit windows, adapt to dynamic weather shifts, and defend against rival undercuts/overcuts.
+AEGIS is a production-grade, human-aware Formula 1 Race Intelligence and Strategy Optimization Platform. Unlike traditional racing telemetry tools, AEGIS models both vehicle physics and human driver limitations in real-time, employing an advanced Monte Carlo Tree Search (MCTS) decision engine to solve optimal pit windows, adapt to dynamic weather shifts, and defend against rival undercuts/overcuts.
 
 ---
 
 ##  Key Features
 
 *   **Real-Time Vehicle Physics**: High-fidelity simulation of speedometer speeds, engine RPM, G-Forces, ERS batteries, drag reduction systems (DRS), mode-based fuel consumption, and independent 4-corner tire temperatures and wear degradation.
-*   **Human Driver Model (HDM)**: Simulates professional racing driver limitations including fatigue accumulation, stress variables, focus coefficients, reaction delay scaling, and risk biases to calculate the **Human Risk Penalty (HRP)**. High HRP increases probability of lock-ups, slips, and braking delays.
+*   **Human Driver Model (HDM)**: Simulates professional racing driver limitations including fatigue accumulation, stress variables, focus coefficients, reaction delay scaling, and risk biases to calculate the **Human Risk Penalty (HRP)**. High HRP increases the probability of lock-ups, slips, and braking delays.
 *   **MCTS Strategy Optimization**: Evaluates candidates over remaining race stints under dynamic rain weather radar maps using Monte Carlo rollouts to forecast pit stop laps, optimal compounds, and win probabilities.
 *   **Cyberpunk Motorsport Operational HUD**: Glassmorphic panels, glowing telemetry arcs, a real-time canvas-based Silverstone GPS track locator with racing lines, Recharts analytics, and an interactive **AI Race Engineer Voice Assistant** channel.
 *   **Tamper-Proof Audit Chain**: Encodes live telemetry records using SHA-256 block hashing links, securing historical data runs against interference.
@@ -67,7 +67,7 @@ Ensure the following are installed locally:
 *   [Python 3.10+](https://www.python.org/downloads/)
 *   [Node.js 18+](https://nodejs.org/en)
 
-### 2. Startup Backend API (Uvicorn Server)
+### 2. Start the Backend API (Uvicorn Server)
 Open your terminal and navigate to the backend subdirectory:
 
 ```powershell
@@ -106,7 +106,7 @@ npm run dev
 Open `http://localhost:3000` in your web browser. You will enter the **AEGIS Operations Center** where live telemetry frames will start streaming automatically!
 
 ### 4. Running Unified Container Deployment
-To compile and launch both systems inside docker:
+To compile and launch both systems inside Docker:
 
 ```powershell
 # Run from root folder containing docker-compose.yml
